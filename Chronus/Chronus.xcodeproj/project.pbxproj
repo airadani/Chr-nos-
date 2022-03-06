@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450A31F727B1F40C0015D3D2 /* LunchAccCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A31F627B1F40C0015D3D2 /* LunchAccCollectionViewController.swift */; };
+		450A31F827B1F40C0015D3D2 /* LunchAccCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A31F627B1F40C0015D3D2 /* LunchAccCollectionViewController.swift */; };
+		450A31F927B1F40C0015D3D2 /* LunchAccCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A31F627B1F40C0015D3D2 /* LunchAccCollectionViewController.swift */; };
+		A0077B1527AF24A700D90847 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0077B1427AF24A700D90847 /* Utilities.swift */; };
+		A00C905727AF3E2400A16AFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A00C905627AF3E2400A16AFA /* GoogleService-Info.plist */; };
+		A00C905927AFA34C00A16AFA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00C905827AFA34C00A16AFA /* Constants.swift */; };
+		A045D8A527B12D84000629FC /* EventEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045D8A427B12D84000629FC /* EventEditViewController.swift */; };
+		A045D8A727B12DCD000629FC /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045D8A627B12DCD000629FC /* EventCell.swift */; };
+		A05025DA27B098A600BAAA31 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05025D927B098A600BAAA31 /* ScheduleViewController.swift */; };
+		A0687B8D27AF0F2B008DB35F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0687B8C27AF0F2B008DB35F /* AppDelegate.swift */; };
+		A0687B8F27AF0F2B008DB35F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0687B8E27AF0F2B008DB35F /* SceneDelegate.swift */; };
+		A0687B9127AF0F2B008DB35F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0687B9027AF0F2B008DB35F /* ViewController.swift */; };
+		A0687B9427AF0F2B008DB35F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0687B9227AF0F2B008DB35F /* Main.storyboard */; };
+		A0687B9627AF0F30008DB35F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0687B9527AF0F30008DB35F /* Assets.xcassets */; };
+		A0687B9927AF0F30008DB35F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0687B9727AF0F30008DB35F /* LaunchScreen.storyboard */; };
+		A0687BA427AF0F31008DB35F /* ChronusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0687BA327AF0F31008DB35F /* ChronusTests.swift */; };
+		A0687BAE27AF0F31008DB35F /* ChronusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0687BAD27AF0F31008DB35F /* ChronusUITests.swift */; };
+		A0687BB027AF0F31008DB35F /* ChronusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0687BAF27AF0F31008DB35F /* ChronusUITestsLaunchTests.swift */; };
+		A0687BBD27AF0FCB008DB35F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0687BBC27AF0FCB008DB35F /* SignUpViewController.swift */; };
+		A0687BBF27AF0FF1008DB35F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0687BBE27AF0FF1008DB35F /* LoginViewController.swift */; };
+		A0687BC127AF1029008DB35F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0687BC027AF1029008DB35F /* HomeViewController.swift */; };
+		A083D3D927B11E340059CCC1 /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D3D827B11E340059CCC1 /* WeeklyViewController.swift */; };
+		A09280AC27B1300A00D4E42B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09280AB27B1300A00D4E42B /* Event.swift */; };
+		A0C42EE327B0D46F0034F52B /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C42EE227B0D46F0034F52B /* CalendarViewController.swift */; };
+		A0E31B1227B10D9C004A20DA /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E31B1127B10D9C004A20DA /* CalendarCell.swift */; };
+		A0E31B1427B10F48004A20DA /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E31B1327B10F48004A20DA /* CalendarHelper.swift */; };
+		A0E7AA9B27B13A5600497658 /* SAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E7AA9A27B13A5600497658 /* SAButton.swift */; };
+		A0E7AA9D27B13B8600497658 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E7AA9C27B13B8600497658 /* EmailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0687BA027AF0F31008DB35F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0687B8127AF0F2B008DB35F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0687B8827AF0F2B008DB35F;
+			remoteInfo = Chronus;
+		};
+		A0687BAA27AF0F31008DB35F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0687B8127AF0F2B008DB35F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0687B8827AF0F2B008DB35F;
+			remoteInfo = Chronus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		450A31F627B1F40C0015D3D2 /* LunchAccCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchAccCollectionViewController.swift; sourceTree = "<group>"; };
+		A0077B1427AF24A700D90847 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A00C905627AF3E2400A16AFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A00C905827AFA34C00A16AFA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A045D8A427B12D84000629FC /* EventEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditViewController.swift; sourceTree = "<group>"; };
+		A045D8A627B12DCD000629FC /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		A05025D927B098A600BAAA31 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		A0687B8927AF0F2B008DB35F /* Chronus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chronus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0687B8C27AF0F2B008DB35F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0687B8E27AF0F2B008DB35F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0687B9027AF0F2B008DB35F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0687B9327AF0F2B008DB35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0687B9527AF0F30008DB35F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0687B9827AF0F30008DB35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0687B9A27AF0F30008DB35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0687B9F27AF0F31008DB35F /* ChronusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChronusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0687BA327AF0F31008DB35F /* ChronusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronusTests.swift; sourceTree = "<group>"; };
+		A0687BA927AF0F31008DB35F /* ChronusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChronusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0687BAD27AF0F31008DB35F /* ChronusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronusUITests.swift; sourceTree = "<group>"; };
+		A0687BAF27AF0F31008DB35F /* ChronusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0687BBC27AF0FCB008DB35F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A0687BBE27AF0FF1008DB35F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A0687BC027AF1029008DB35F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A083D3D827B11E340059CCC1 /* WeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
+		A09280AB27B1300A00D4E42B /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		A0C42EE227B0D46F0034F52B /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		A0E31B1127B10D9C004A20DA /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		A0E31B1327B10F48004A20DA /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		A0E7AA9A27B13A5600497658 /* SAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAButton.swift; sourceTree = "<group>"; };
+		A0E7AA9C27B13B8600497658 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0687B8627AF0F2B008DB35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0687B9C27AF0F31008DB35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0687BA627AF0F31008DB35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0077B1627AF24B200D90847 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A0077B1427AF24A700D90847 /* Utilities.swift */,
+				A00C905827AFA34C00A16AFA /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A0687B8027AF0F2B008DB35F = {
+			isa = PBXGroup;
+			children = (
+				A0687B8B27AF0F2B008DB35F /* Chronus */,
+				A0687BA227AF0F31008DB35F /* ChronusTests */,
+				A0687BAC27AF0F31008DB35F /* ChronusUITests */,
+				A0687B8A27AF0F2B008DB35F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0687B8A27AF0F2B008DB35F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0687B8927AF0F2B008DB35F /* Chronus.app */,
+				A0687B9F27AF0F31008DB35F /* ChronusTests.xctest */,
+				A0687BA927AF0F31008DB35F /* ChronusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0687B8B27AF0F2B008DB35F /* Chronus */ = {
+			isa = PBXGroup;
+			children = (
+				A0687B8C27AF0F2B008DB35F /* AppDelegate.swift */,
+				A0687B8E27AF0F2B008DB35F /* SceneDelegate.swift */,
+				A0077B1627AF24B200D90847 /* Helpers */,
+				A0687BC227AF1037008DB35F /* View Controller */,
+				A0687B9227AF0F2B008DB35F /* Main.storyboard */,
+				A0687B9527AF0F30008DB35F /* Assets.xcassets */,
+				A0687B9727AF0F30008DB35F /* LaunchScreen.storyboard */,
+				A0687B9A27AF0F30008DB35F /* Info.plist */,
+				A00C905627AF3E2400A16AFA /* GoogleService-Info.plist */,
+			);
+			path = Chronus;
+			sourceTree = "<group>";
+		};
+		A0687BA227AF0F31008DB35F /* ChronusTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0687BA327AF0F31008DB35F /* ChronusTests.swift */,
+			);
+			path = ChronusTests;
+			sourceTree = "<group>";
+		};
+		A0687BAC27AF0F31008DB35F /* ChronusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0687BAD27AF0F31008DB35F /* ChronusUITests.swift */,
+				A0687BAF27AF0F31008DB35F /* ChronusUITestsLaunchTests.swift */,
+			);
+			path = ChronusUITests;
+			sourceTree = "<group>";
+		};
+		A0687BC227AF1037008DB35F /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0687B9027AF0F2B008DB35F /* ViewController.swift */,
+				A0687BBC27AF0FCB008DB35F /* SignUpViewController.swift */,
+				A0687BBE27AF0FF1008DB35F /* LoginViewController.swift */,
+				A0687BC027AF1029008DB35F /* HomeViewController.swift */,
+				A05025D927B098A600BAAA31 /* ScheduleViewController.swift */,
+				A0E7AA9C27B13B8600497658 /* EmailViewController.swift */,
+				A0C42EE227B0D46F0034F52B /* CalendarViewController.swift */,
+				A0E31B1127B10D9C004A20DA /* CalendarCell.swift */,
+				A0E31B1327B10F48004A20DA /* CalendarHelper.swift */,
+				A083D3D827B11E340059CCC1 /* WeeklyViewController.swift */,
+				A045D8A427B12D84000629FC /* EventEditViewController.swift */,
+				A045D8A627B12DCD000629FC /* EventCell.swift */,
+				A09280AB27B1300A00D4E42B /* Event.swift */,
+				A0E7AA9A27B13A5600497658 /* SAButton.swift */,
+				450A31F627B1F40C0015D3D2 /* LunchAccCollectionViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0687B8827AF0F2B008DB35F /* Chronus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0687BB327AF0F31008DB35F /* Build configuration list for PBXNativeTarget "Chronus" */;
+			buildPhases = (
+				A0687B8527AF0F2B008DB35F /* Sources */,
+				A0687B8627AF0F2B008DB35F /* Frameworks */,
+				A0687B8727AF0F2B008DB35F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chronus;
+			productName = Chronus;
+			productReference = A0687B8927AF0F2B008DB35F /* Chronus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0687B9E27AF0F31008DB35F /* ChronusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0687BB627AF0F31008DB35F /* Build configuration list for PBXNativeTarget "ChronusTests" */;
+			buildPhases = (
+				A0687B9B27AF0F31008DB35F /* Sources */,
+				A0687B9C27AF0F31008DB35F /* Frameworks */,
+				A0687B9D27AF0F31008DB35F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0687BA127AF0F31008DB35F /* PBXTargetDependency */,
+			);
+			name = ChronusTests;
+			productName = ChronusTests;
+			productReference = A0687B9F27AF0F31008DB35F /* ChronusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0687BA827AF0F31008DB35F /* ChronusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0687BB927AF0F31008DB35F /* Build configuration list for PBXNativeTarget "ChronusUITests" */;
+			buildPhases = (
+				A0687BA527AF0F31008DB35F /* Sources */,
+				A0687BA627AF0F31008DB35F /* Frameworks */,
+				A0687BA727AF0F31008DB35F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0687BAB27AF0F31008DB35F /* PBXTargetDependency */,
+			);
+			name = ChronusUITests;
+			productName = ChronusUITests;
+			productReference = A0687BA927AF0F31008DB35F /* ChronusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0687B8127AF0F2B008DB35F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A0687B8827AF0F2B008DB35F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A0687B9E27AF0F31008DB35F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A0687B8827AF0F2B008DB35F;
+					};
+					A0687BA827AF0F31008DB35F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A0687B8827AF0F2B008DB35F;
+					};
+				};
+			};
+			buildConfigurationList = A0687B8427AF0F2B008DB35F /* Build configuration list for PBXProject "Chronus" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0687B8027AF0F2B008DB35F;
+			productRefGroup = A0687B8A27AF0F2B008DB35F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0687B8827AF0F2B008DB35F /* Chronus */,
+				A0687B9E27AF0F31008DB35F /* ChronusTests */,
+				A0687BA827AF0F31008DB35F /* ChronusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0687B8727AF0F2B008DB35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0687B9927AF0F30008DB35F /* LaunchScreen.storyboard in Resources */,
+				A00C905727AF3E2400A16AFA /* GoogleService-Info.plist in Resources */,
+				A0687B9627AF0F30008DB35F /* Assets.xcassets in Resources */,
+				A0687B9427AF0F2B008DB35F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0687B9D27AF0F31008DB35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0687BA727AF0F31008DB35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0687B8527AF0F2B008DB35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E31B1227B10D9C004A20DA /* CalendarCell.swift in Sources */,
+				A0E7AA9D27B13B8600497658 /* EmailViewController.swift in Sources */,
+				A0E7AA9B27B13A5600497658 /* SAButton.swift in Sources */,
+				A045D8A527B12D84000629FC /* EventEditViewController.swift in Sources */,
+				A0E31B1427B10F48004A20DA /* CalendarHelper.swift in Sources */,
+				A0C42EE327B0D46F0034F52B /* CalendarViewController.swift in Sources */,
+				A0687B9127AF0F2B008DB35F /* ViewController.swift in Sources */,
+				A0687B8D27AF0F2B008DB35F /* AppDelegate.swift in Sources */,
+				A0077B1527AF24A700D90847 /* Utilities.swift in Sources */,
+				450A31F727B1F40C0015D3D2 /* LunchAccCollectionViewController.swift in Sources */,
+				A045D8A727B12DCD000629FC /* EventCell.swift in Sources */,
+				A09280AC27B1300A00D4E42B /* Event.swift in Sources */,
+				A05025DA27B098A600BAAA31 /* ScheduleViewController.swift in Sources */,
+				A0687BBD27AF0FCB008DB35F /* SignUpViewController.swift in Sources */,
+				A0687BBF27AF0FF1008DB35F /* LoginViewController.swift in Sources */,
+				A083D3D927B11E340059CCC1 /* WeeklyViewController.swift in Sources */,
+				A0687B8F27AF0F2B008DB35F /* SceneDelegate.swift in Sources */,
+				A0687BC127AF1029008DB35F /* HomeViewController.swift in Sources */,
+				A00C905927AFA34C00A16AFA /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0687B9B27AF0F31008DB35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450A31F827B1F40C0015D3D2 /* LunchAccCollectionViewController.swift in Sources */,
+				A0687BA427AF0F31008DB35F /* ChronusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0687BA527AF0F31008DB35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0687BAE27AF0F31008DB35F /* ChronusUITests.swift in Sources */,
+				450A31F927B1F40C0015D3D2 /* LunchAccCollectionViewController.swift in Sources */,
+				A0687BB027AF0F31008DB35F /* ChronusUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0687BA127AF0F31008DB35F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0687B8827AF0F2B008DB35F /* Chronus */;
+			targetProxy = A0687BA027AF0F31008DB35F /* PBXContainerItemProxy */;
+		};
+		A0687BAB27AF0F31008DB35F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0687B8827AF0F2B008DB35F /* Chronus */;
+			targetProxy = A0687BAA27AF0F31008DB35F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0687B9227AF0F2B008DB35F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0687B9327AF0F2B008DB35F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0687B9727AF0F30008DB35F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0687B9827AF0F30008DB35F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0687BB127AF0F31008DB35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0687BB227AF0F31008DB35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0687BB427AF0F31008DB35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chronus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chronus.Chronus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0687BB527AF0F31008DB35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chronus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chronus.Chronus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0687BB727AF0F31008DB35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chronus.ChronusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chronus.app/Chronus";
+			};
+			name = Debug;
+		};
+		A0687BB827AF0F31008DB35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chronus.ChronusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chronus.app/Chronus";
+			};
+			name = Release;
+		};
+		A0687BBA27AF0F31008DB35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chronus.ChronusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chronus;
+			};
+			name = Debug;
+		};
+		A0687BBB27AF0F31008DB35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chronus.ChronusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chronus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0687B8427AF0F2B008DB35F /* Build configuration list for PBXProject "Chronus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0687BB127AF0F31008DB35F /* Debug */,
+				A0687BB227AF0F31008DB35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0687BB327AF0F31008DB35F /* Build configuration list for PBXNativeTarget "Chronus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0687BB427AF0F31008DB35F /* Debug */,
+				A0687BB527AF0F31008DB35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0687BB627AF0F31008DB35F /* Build configuration list for PBXNativeTarget "ChronusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0687BB727AF0F31008DB35F /* Debug */,
+				A0687BB827AF0F31008DB35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0687BB927AF0F31008DB35F /* Build configuration list for PBXNativeTarget "ChronusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0687BBA27AF0F31008DB35F /* Debug */,
+				A0687BBB27AF0F31008DB35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0687B8127AF0F2B008DB35F /* Project object */;
+}
